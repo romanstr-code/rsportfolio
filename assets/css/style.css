@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.hero-pic {
+    opacity: 0.875;
+    border-radius: 50%;
+}
+
+.jumbotron-fluid {
+    height: 55vh;
+    background: url('../images/background-hero-image.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
